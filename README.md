@@ -12,10 +12,10 @@ Usage
     goinstall github.com/soul9/go-ircfs
     cd $GOROOT/src/pkg/github.com/soul9/go-ircfs/ && make install
 </pre>
-    1, start go-ircfs: go-ircfs
-    1, mount the filesystem:
+    2, start go-ircfs: go-ircfs
+    3, mount the filesystem:
       install 9mount, plan9ports or just add an fstab option for the kernel-driver
-    1, start the frontend: 
+    4, start the frontend: 
 <pre>
     cd src
     ./list.py ~irc
