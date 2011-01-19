@@ -5,8 +5,19 @@ Work in progress.
 
 Usage
 -----
-
-    ii -s irc.freenode.org -n Kivii
+    1, install go and go-ircfs:
+      - go: http://golang.org/doc/install.html
+      - go-ircfs: once go is installed, do:
+<pre>
+    goinstall github.com/soul9/go-ircfs
+    cd $GOROOT/src/pkg/github.com/soul9/go-ircfs/ && make install
+</pre>
+    1, start go-ircfs: go-ircfs
+    1, mount the filesystem:
+      install 9mount, plan9ports or just add an fstab option for the kernel-driver
+    1, start the frontend: 
+<pre>
     cd src
     ./list.py ~irc
 
+</pre>
